@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Project</title>
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+     rel="stylesheet">
+    <link rel="stylesheet" href=
+    "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="/css/signup1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">            
+            <div class="signup">
+                <form action="/selfregister" method="post">
+                    <label for="chk" aria-hidden="true">Registered</label>
+                    <% if(login_valid1 == 2){ %> 
+                            <p style="color: red; text-align: center;">* Referal Code is not correct.</p>
+                    <% } %> 
+                    <% if(login_valid1 == 1){ %> 
+                        <p style="color: red; text-align: center;">* Email is already registered.</p>
+                    <% } %> 
+
+                        <input type="text" name="name" id="name" placeholder="Full Name" required>
+                        <input type="password" name="password" placeholder="password" required>
+                        <input type="email" name="email" placeholder="Email Id" required>
+                        <input type="text" name="referal" placeholder="Referal Code" >
+                        <input type="number" name="amount" placeholder="Amount" required>
+                    <button>Registered</button>
+                    <br>
+                    <p style="color: white;text-align: center;font-size: 18px;">Already have an account? <a href="/login" style="font-weight: 400; color: rgb(79, 159, 191)">Login</a></p>
+                </form>
+            </div>
+	</div>
+</body>
+</html>
+                  

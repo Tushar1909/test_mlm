@@ -1,0 +1,340 @@
+body{
+        font-family: 'Ubuntu',sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat',sans-serif;  
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+p{
+    font-family: 'Montserrat',sans-serif;  
+    font-weight: 900;
+    color: #8f8f8f;
+    font-weight: 600;
+}
+.pad{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+#pad1{
+    height: 600px;
+    background-image: url("/uploads/logo/banner1.jpg");
+    border: 4px solid orange;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pad2{
+    height: 600px;
+    background-image: url("/uploads/logo/banner2.jpg");
+    border: 4px solid orange;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#pad3{
+    height: 600px;
+    background-image: url("/uploads/logo/banner3.jpg");
+    border: 4px solid orange;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.testicon{
+    color: black;
+}
+/* heading */
+.big-heading{
+    line-height: 1.5;
+    font-size: 4rem;
+}
+.small-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* section */
+.colored-section{
+    background-color: #000;
+    color: white;
+}
+.white-section{
+    background-color: white;
+}
+
+/* title */
+
+#title{
+    height: 100px;
+}
+
+.container-fluid{
+    padding: 7% 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.download-btn{
+    font-size: 1.5rem;
+    margin: 5% 3% 5% 0;
+}
+
+/* Navbar */
+/* navbar */
+
+nav{
+    height: 80px;
+    display: flex;
+   
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 0px;
+}
+
+nav img{
+    display: inline-flex;
+    margin-top: -10px;
+    width: 20%;
+    
+    
+}
+
+nav p{
+    display: inline-flex;
+    
+}
+
+nav p{
+    font-size: 1.98rem;
+    font-weight: 600;
+}
+
+nav ul{
+    display: inline-flex;
+    position: absolute;
+    /* right: 0; */
+    list-style: none;
+    padding-right: 5.4rem;
+    padding-top: 10px;
+    margin-left: 200px;
+
+    background-color: #000;;
+    border: 4px solid #000;;
+}
+
+nav ul li{
+    margin: 0 5px;    
+    background-color: #000;
+
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 4px 4px;
+    transition: all 0.3s ease;
+}
+
+nav .active{
+    color: white;
+}
+
+nav ul li a:hover{
+    color:  white;
+}
+
+#click{
+    display: none;
+}
+
+nav .menu-btn i{
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+}
+.slideBtnColor{
+    background-color: black;
+    padding: 20px 20px;
+    border-radius: 40%;
+}
+.cimg{
+    width: 130px;
+}
+.cimg1{
+    border: 1px solid rgb(243, 240, 240);
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    align-items: center;
+    justify-items: center;
+    margin-top: 1vh;
+    box-shadow: 1px 2px 1px 2px black;
+    width: 130px;
+    display: grid;
+}
+.card-header{
+    align-items: center;
+    display: grid;
+    justify-items: center;
+}
+.card{
+    border: 1px solid black;
+    box-shadow: 2px 3px 5px 3px grey;
+    border-radius: 10%;
+}
+/* Feature  */
+#features{
+    position: relative;
+}
+.feature-box{
+    padding: 4.5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom:20px;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+/* Testimonials */
+#testimonials{
+    background-color: #ef8172;
+}
+.testimonial-image{
+    width:100%;
+}
+/* press */
+#press{
+    background-color: #ef8172;
+    padding:0 0 4%;
+}
+.press-image{
+    width: 15%;
+    margin: 20px 30px;
+}
+/* pricing */
+#pricing{
+    padding:70px 100px;
+}
+.price-column{
+    padding: 3% 4%;
+}
+/* Call to action */
+.cta-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+/* Footer */
+.foot-icon{
+    margin: 20px 10px;
+    color: white;
+}
+
+.foot{
+    padding: 2% -30px;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    text-align: center;
+}
+.oflist{
+    list-style: disc;
+}
+.oflist1{
+    list-style: none;
+}
+.flist{
+    color: white;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.flist1{
+    color: white;
+    margin-left: 6px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.flist a{
+    text-decoration: none;
+    color: white;
+}
+.fhead{
+    color: white;
+    text-align: left;
+    margin-left: 90px;
+    font-weight: 400;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#footer{
+    background-color: black;
+}
+#login{
+    color: white;
+    margin-left: 220px;
+}
+/* media query */
+@media (max-width: 1035px) {
+
+    nav ul{
+        position: absolute;
+        top: 5rem;
+        left: -127%;
+        height: 100vh;
+        width: 100%;
+        margin-top: 20px;
+        display: block;
+        margin-left: 100px;
+
+        /* text-align: center; */
+        transition: all 0.3s ease;
+        z-index: 1;
+        background-color: #000;
+    }
+
+    #click:checked ~ul{
+        left: -27%;
+        text-align: left;
+        z-index: 1;
+        /* margin-left: 20px; */
+    }
+
+    nav img{
+        position: absolute;
+        left: 0;
+        top: 0.625rem;
+        width: 39%;
+    }
+
+    
+
+    nav ul  a{
+       font-size: 1.25rem;
+       color: white;
+       margin-left: 130px;
+    }
+
+    nav .menu-btn i{
+        display: block;
+        position: absolute;
+        right: 1.875rem;
+        top: 2.1875rem;
+    }
+
+ 
+
+    #title{
+      text-align: centre;
+    }
+    .title-image{
+        transform: rotate(0);
+        position: static;
+        width: 60%;
+        margin:13%;
+    }
+
+}
